@@ -1,0 +1,123 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+   
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "course",
+      "patterns": [
+        "What courses do you offer?",
+        "What courses do you sell?",
+        "what courses does this LMS provides?"
+      ],
+      "responses": [
+        "We have variety or courses available.",
+        "We have courses from different domains!"
+      ]
+    },
+    {
+      "tag": "Courses_cost",
+      "patterns": [
+        "Are these courses free of cost?",
+        "What is the cost of the courses?",
+        "What are your charges for these courses?",
+        "Are you cash only?",
+        "Are the courses free or paid?"
+      ],
+      "responses": [
+        "We offer them at the minimum cost that is possible without compromising the quality of the courses.",
+        "The access to these courses require some minimal cost."
+      ]
+    },
+    {
+      "tag": "payments2",
+      "patterns": [
+        "How do you accept payments?",
+        "Do you accept credit/debit cards?",
+        "Do you acceot UPI payment?",
+        "Do you accept credit/debit cards or UPI?"
+      ],
+      "responses": [
+        "Yes we accept credit cards, debit cards and UPI payments."
+        
+      ]
+    },
+    {
+      "tag": "register",
+      "patterns": [
+        "How to register for a course?",
+        "How can I register for a course?",
+        "How can I complete the registration to a course?",
+        "Can you tell about the registration process to a course?"
+      ],
+      "responses": [
+        "You can Login through your Email-ID/Phone number, choose the course you want to learn, complete the payment process and start Learning!",
+        "Login through Email ID/ Phone Number -> Choose the Course you want to learn ->Payment -> Enjoy the Course!!"
+      ]
+    },
+    {
+      "tag": "de-register",
+      "patterns": [
+        "How can I de-register for a course?",
+        "What if I want to de-register to a course, How can I do it?"
+        
+      ],
+      "responses": [
+        "Go to the course tab -> Click on more options -> De-Register."]}
+  ]
+}
